@@ -1,10 +1,32 @@
 <p style="color: green"><%= notice %></p>
 
-<%= render @friend %>
+<div>  
+  <p>
+    <strong>First name:</strong>
+    <%= @friend.first_name %>
+  </p>
 
-<div>
-  <%= link_to "Edit this friend", edit_friend_path(@friend) %> |
-  <%= link_to "Back to friends", friends_path %>
+  <p>
+    <strong>Last name:</strong>
+    <%= @friend.last_name %>
+  </p>
 
-  <%= button_to "Destroy this friend", @friend, method: :delete %>
+  <p>
+    <strong>Email:</strong>
+    <%= @friend.email %>
+  </p>
+
+  <p>
+    <strong>Phone:</strong>
+    <%= @friend.phone %>
+  </p>
+
+  <p>
+    <strong>Twitter:</strong>
+    <%= @friend.twitter %>
+  </p>
+
+  <%= link_to "Edit this friend", edit_friend_path(@friend), class:"btn btn-secondary" %>
+  <%= link_to "Back to friends", friends_path, class:"btn btn-secondary" %>
+  <%= link_to "Destroy this friend", @friend, method: :delete, data:{ confirm: 'Are you sure?' }, class:"btn btn-secondary" %>
 </div>
