@@ -1,3 +1,4 @@
+<% if current_user.id == friend.user_id %>
 <tr>
   <td>
     <%= friend.first_name %>
@@ -15,6 +16,9 @@
     <%= friend.twitter %>
   </td>
   <td>
+    <%= friend.user_id %>
+  </td>
+  <td>
     <%= link_to "Show", friend %>
   </td>
   <td>
@@ -24,3 +28,4 @@
     <%= link_to "Destroy", friend, method: :delete, data:{ turbo_method: :delete, turbo_confirm: 'Are you sure?' } %>
   </td>
 </tr>
+<% end %>
