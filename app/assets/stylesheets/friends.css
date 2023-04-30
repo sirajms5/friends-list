@@ -1,0 +1,7 @@
+#friend_name {
+    text-decoration: none;
+}
+
+#friend_name:hover {
+    text-decoration: underline;
+}

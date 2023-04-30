@@ -11,9 +11,6 @@
         </li>
         <% if user_signed_in? %>
           <li class="nav-item">
-            <%= link_to "Friends", friends_path, class:"nav-link" %>
-          </li>    
-          <li class="nav-item">
             <%= link_to "Add Friends", new_friend_path, class:"nav-link" %>
           </li>
           <li class="nav-item">
