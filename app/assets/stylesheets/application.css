@@ -13,4 +13,21 @@
  *= require_tree .
  *= require_self
  */
- 
+
+#app-body {
+   background-color: #F2F3F4;
+}
+
+#content {
+   height: 94vh;
+}
+
+#footer {
+   width: 100vw;
+}
+
+@media (max-width: 370px){
+   #phone-size {
+      margin-top: 10px;
+   }
+}

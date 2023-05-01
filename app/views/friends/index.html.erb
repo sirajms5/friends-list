@@ -20,6 +20,12 @@
 
 <%= link_to "New friend", new_friend_path, class:"btn btn-secondary" %>
 <% else %>
-  <h1>Hello World</h1>
-  <p>Find me in app/views/home/index.html.erb</p>
+  <h1 class="display-4">Welcome to Friend List Application</h1>
+  <h5 class="mt-5">
+    Before you start adding your new friends, you need to
+    <%= link_to "sign up",  new_user_registration_path, class: "anchor" %>
+    if you are a new member, or
+    <%= link_to "log in", new_user_session_path, class: "anchor" %>
+    if you are a member.
+  </h5>
 <% end %>

@@ -1,7 +1,7 @@
 <% if current_user == friend.user %>
 <tr>
   <td>
-    <%= link_to friend.first_name + " " + friend.last_name, friend, id: "friend_name" %>
+    <%= link_to friend.first_name + " " + friend.last_name, friend, class: "anchor" %>
   </td>
   <td>
     <%= friend.email %>
