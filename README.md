@@ -4,8 +4,6 @@
 
 #### Ruby on rails was used to develope this application.
 
-#### Please visit the following [link](https://friends-list.herokuapp.com) to have a look at the application.
-
 -----
 ##### Screenshot of the application:
 
