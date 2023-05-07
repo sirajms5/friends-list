@@ -7,6 +7,6 @@
 -----
 ##### Screenshot of the application:
 
-![image showing calculator application](https://www.sirajsaleem.com/images/friends-list-app.png)
+![image showing calculator application](https://www.sirajsaleem.com/images/friends-list/friends-list-app.png)
 
 ### Disclaimer: all details seen in the screenshot above were randomly generated.
